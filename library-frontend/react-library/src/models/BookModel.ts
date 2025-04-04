@@ -1,4 +1,4 @@
-class Book {
+class BookModel {
    id:               number;
    title:            string;
    author?:          string;
@@ -21,4 +21,4 @@ class Book {
    }
 }
 
-export default Book;
+export default BookModel;
