@@ -18,21 +18,27 @@
   }
 
 .main-color {
-background-color: #0e76a8 ;
+    background-color: #a50000 ;
+}
+
+.logo-crow-left {
+    background-image: url("./Images/PublicImages/crow.png");
+    height: 2em;
+    width: 2em;
 }
 
 .col-image-left {
-    background-image: url("./Images/PublicImages/image-4.jpg");
+    background-image: url("./Images/PublicImages/blib.jpg");
     height: 25em !important;
 }
 
 .col-image-right {
-    background-image: url("./Images/PublicImages/image-1.jpg");
+    background-image: url("./Images/PublicImages/brose1.jpg");
     height: 25em !important;
 }
 
 .lost-image {
-    background-image: url("./Images/PublicImages/image-3.jpg");
+    background-image: url("./Images/PublicImages/bclock.jpg");
     height: 25em !important;
     width: "720"
 }
@@ -51,4 +57,16 @@ background-color: #0e76a8 ;
 .inactiveLink {
     pointer-events: none;
     cursor: default;
+ }
+
+ .row-color-charcoal {
+    background-color: #232323;
+ }
+
+ .footer-color-lgrey {
+    color: #8c8a89 !important;
+ }
+
+ .hov:hover {
+    color: white !important;
  }
